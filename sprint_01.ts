@@ -1,6 +1,6 @@
 // Task 01
 // Создайте константу p_01 (строка) содержащую строку 'type script'. Выведите в консоль.
-const p_01 : string = 'type script';
+const p_01  = 'type script';
 
 console.log(p_01);
 
@@ -8,7 +8,7 @@ console.log(p_01);
 
 // Task 02 
 // Создайте константу p_02 (строка) содержащую пустую строку. Выведите p_02 в консоль.
-const p_02 : string = '';
+const p_02  = '';
 console.log(p_02);
 
 
