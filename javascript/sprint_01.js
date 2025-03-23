@@ -18,7 +18,7 @@ console.log(s_3);
 const n_041 = 22;
 const n_042 = 44;
 const s_04 = n_041 * n_042;
-document.querySelector('.out-4');
+document.querySelector('.out-4').innerHTML = s_04.toString();
 // Task 05
 // Созданы две константы n_051 и n_052. Создайте переменную s_05 куда положите сумму чисел n_051 и n_052. Выведите результат в .out-5. При необходимости выполните приведение типов данных.
 const n_051 = '33';
