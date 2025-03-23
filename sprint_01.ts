@@ -39,6 +39,7 @@ document.querySelector('.out-4').innerHTML = s_04.toString();
 const n_051 : string = '33';
 const n_052 : number = 22; 
 
+ const s_05 : number = Number(n_051) + n_052;
  
 
 // Task 06
