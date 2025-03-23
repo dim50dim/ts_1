@@ -63,8 +63,11 @@ document.querySelector('.out-7').textContent = String(k_07)
 // Task 08
 // Создайте константу p_08 равную 0.07 и константу t_08 равную 0.04. Создайте переменную res_8 куда положите сумму данных констант. Тип данных - определите самостоятельно, явно. Результат выведите в .out-8.
 
-const p_08 = 0.07;
-const t_08 = 0.04;
+const p_08 : number = 0.07;
+const t_08 : number = 0.04;
+const res_8 : number= p_08 + t_08;
+console.log(res_8, typeof res_8);
+document.querySelector('.out-8').textContent = String(res_8)
 
 // Task 09
 // Созданы константы p_09 и t_09. Выведите их сумму в .out-9.
