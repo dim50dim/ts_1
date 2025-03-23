@@ -30,7 +30,7 @@ const n_041 : number = 22;
 const n_042 : number = 44;
 const s_04 : number = n_041 * n_042;
 
-document.querySelector('.out-4').innerHTML = s_04.toString();
+document.querySelector('.out-4').innerHTML = String(s_04)
 
 
 // Task 05
