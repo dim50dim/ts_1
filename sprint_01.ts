@@ -112,20 +112,26 @@ if(!isNaN(Number(input))){
     s_13 = input;
 }
 
-console.log(n_13,s_13);
+console.log(n_13);
+console.log(s_13);
 
 
 
 // Task 14
 // Создайте переменную b_14 с типом данных boolean. Не присваивайте ей значения. Выведите в консоль содержимое переменной и тип данных.
 
+let b_14 : boolean;
+console.log(b_14,typeof b_14);
 
 
 
 // Task 15
 // Создайте переменную b_15 с типом данных boolean и значением false. Выведите в .out-15 содержимое переменной b_15.
 
+const b_15 : boolean = false;
 
+
+document.querySelector('.out-15').textContent = String(b_15);
 
 
 // Task 16
