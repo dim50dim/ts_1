@@ -175,4 +175,4 @@ console.log(!b_19);
 // Создайте переменную b_20, тип boolean и поместите в нее значение из .p-20 (число из .p-20). Выведите в консоль.
 
 const b_20 : boolean = Boolean(Number( document.querySelector('.p-20').textContent));
-console.log(b_20);
+console.log(b_20); 
