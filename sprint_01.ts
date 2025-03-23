@@ -140,6 +140,8 @@ document.querySelector('.out-15').textContent = String(b_15);
 const b_161 : boolean = true;
 const b_162 : boolean = false;
 
+const b_16 : boolean = b_161 && b_162;
+console.log(b_16, typeof b_16);
 
 
 // Task 17
@@ -148,18 +150,29 @@ const b_162 : boolean = false;
 const b_171 : boolean = true;
 const b_172 : boolean = false;
 
+const b_17 : boolean = b_171 || b_172;
+document.querySelector(".out-17").textContent = String(b_17)
+console.log(b_17,typeof b_17);
+
 
 
 // Task 18
 // Создайте переменную b_18, тип boolean, значение false. Создайте переменную b_negative куда поместите ! (отрицание) переменной b_18. Выведите результат в консоль.
 
+const b_18 : boolean = false;
+const b_negative : boolean = !b_18;
+console.log(b_negative,typeof b_negative);
 
 
 // Task 19
 // Создайте переменную b_19, тип boolean и поместите в нее значение из .p-19. Выведите в консоль.
 
+const b_19 : boolean = Boolean( document.querySelector(".p-19").textContent);
+console.log(!b_19);
 
 
 // Тask 20
 // Создайте переменную b_20, тип boolean и поместите в нее значение из .p-20 (число из .p-20). Выведите в консоль.
 
+const b_20 : boolean = Boolean(Number( document.querySelector('.p-20').textContent));
+console.log(b_20);
