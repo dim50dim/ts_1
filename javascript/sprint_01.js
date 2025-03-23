@@ -47,6 +47,7 @@ document.querySelector('.out-8').textContent = String(res_8);
 // Созданы константы p_09 и t_09. Выведите их сумму в .out-9.
 const p_09 = 200;
 const t_09 = 400;
+document.querySelector('.out-9').textContent = String(p_09 + t_09);
 //Task 10
 // Получите в переменную p_10 (тип number) число из .p-10. Переменную выведите в консоль.
 // Task 11

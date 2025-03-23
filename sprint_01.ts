@@ -74,6 +74,8 @@ document.querySelector('.out-8').textContent = String(res_8)
 
 const p_09 : number = 200; 
 const t_09 : number = 400; 
+document.querySelector('.out-9').textContent = String(p_09 + t_09);
+
 
 
 //Task 10
