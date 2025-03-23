@@ -105,8 +105,14 @@ console.log(p_12);
 // Создайте переменную n_13 тип число, без присвоения значения и переменную s_13 тип строка без присвоения значения. Получите из .p-13 данные. Если данные можно привести к числу то, присвойте число в n_13. Если строка - то присвойте строку в s_13. Выведите в консоль n_13, s_13.
 let n_13 : number;
 let s_13 : string;
+let input : string = document.querySelector('.p-13').textContent;
+if(!isNaN(Number(input))){
+      n_13 = Number(input);
+} else{
+    s_13 = input;
+}
 
-
+console.log(n_13,s_13);
 
 
 
