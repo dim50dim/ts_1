@@ -53,6 +53,8 @@ console.log(k_06);
 
 let k_07 : any;
 // тут новая строка с привоением
+k_07 = 101;
+console.log(k_07,typeof k_07);
 
 
 
