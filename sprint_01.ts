@@ -41,11 +41,12 @@ const n_052 : number = 22;
 
  const s_05 : number = Number(n_051) + n_052;
 
-document.querySelector('.out-5').innerHTML = s_05.toString();
+document.querySelector('.out-5').innerHTML = String(s_05);
 // Task 06
 // Создана переменная k_06 с типом данных any. Выведите в консоль ее тип данных.
 
 let k_06 : any;
+console.log(k_06);
 
 // Task 07
 // Создана переменная k_07 с типом данных any. Значение ей не задано. Допишите строку где присвойте переменной k_07 число 101. Выведите в консоль тип данных переменной k_07. Выведите на страницу в .out-7 значение переменной k_07.
