@@ -95,6 +95,8 @@ console.log(p_11);
 
 // Task 12
 // Создайте константу p_12 и получите в нее число из .p-12. Константу выведите в консоль.
+const p_12 : number = +document.querySelector('.p-12').textContent;
+console.log(p_12);
 
 
 
