@@ -39,7 +39,7 @@ document.querySelector('.out-4').innerHTML = s_04.toString();
 const n_051 : string = '33';
 const n_052 : number = 22; 
 
-
+ 
 
 // Task 06
 // Создана переменная k_06 с типом данных any. Выведите в консоль ее тип данных.
