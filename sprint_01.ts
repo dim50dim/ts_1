@@ -80,7 +80,8 @@ document.querySelector('.out-9').textContent = String(p_09 + t_09);
 
 //Task 10
 // Получите в переменную p_10 (тип number) число из .p-10. Переменную выведите в консоль.
-
+const p_10 : number = +document.querySelector('.p-10').textContent;
+console.log(p_10);
 
 
 

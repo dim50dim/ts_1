@@ -50,6 +50,8 @@ const t_09 = 400;
 document.querySelector('.out-9').textContent = String(p_09 + t_09);
 //Task 10
 // Получите в переменную p_10 (тип number) число из .p-10. Переменную выведите в консоль.
+const p_10 = +document.querySelector('.p-10').textContent;
+console.log(p_10);
 // Task 11
 // Создайте константу p_11 и получите в нее число из .p-11. Константу выведите в консоль.
 // Task 12
