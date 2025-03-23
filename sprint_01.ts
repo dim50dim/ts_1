@@ -40,8 +40,8 @@ const n_051 : string = '33';
 const n_052 : number = 22; 
 
  const s_05 : number = Number(n_051) + n_052;
- 
 
+document.querySelector('.out-5').innerHTML = s_05.toString();
 // Task 06
 // Создана переменная k_06 с типом данных any. Выведите в консоль ее тип данных.
 
